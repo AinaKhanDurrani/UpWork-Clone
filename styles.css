@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Young+Serif&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root {
+
+
+    ----font-family-base: "Neue Montreal";
+    --font-family-rebrand: Rza, Rza-fallback;
+    --font-family-monospace: menlo, monaco, consolas, "Courier New", monospace;
+    --nav-font-size-base: 14px;
+    --nav-font-size-x: 16px;
+    --nav-font-weight: 540;
+    --search-border: #E4EBE4;
+    --nav-bar-text-color: #021202;
+    --up-green: #14a800;
+    --up-green-dark: #3c8224;
+    --brand-green: #108a00;
+    --h1-size: 70px;
+    --h1-font-weight: 500;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    z-index: 999999;
+    background-color: #fff;
+}
+
+.nav-line1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+    font-size: var(--nav-font-size-base);
+    font-weight: var(--nav-font-weight);
+}
+
+.logo {
+    width: 7%;
+}
+
+.logo>img {
+    width: 100%;
+}
+
+.nav-items {
+    width: 92%;
+    display: flex;
+    margin-left: 20px;
+
+}
+
+.nav-items-list {
+    display: flex;
+    width: 50%;
+    justify-content: left;
+    align-items: center;
+}
+
+.nav-items-list li a {
+    padding: 10px;
+    color: var(--nav-bar-text-color);
+}
+
+.nav-items-list li a:hover {
+    color: var(--up-green);
+}
+
+.signed {
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.search-bar {
+    border: 3px solid var(--search-border);
+    border-radius: 50px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.search-bar:hover {
+    background-color: var(--search-border);
+}
+
+.search {
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.search>i {
+    font-size: 1.2rem;
+    margin-left: 8px;
+    width: 30px;
+}
+
+.search>input {
+    padding: 1px 0 0 4px;
+    font-size: 18px;
+    height: 34px;
+    border-radius: 50px;
+
+}
+
+.search>input:focus {
+    outline: none;
+    border: 1px solid transparent;
+}
+
+.search-bar input,
+button {
+    border: none;
+}
+
+.search-bar>button {
+    border-radius: 50px;
+    padding: 1px 12px 0;
+    background-color: transparent;
+}
+
+.search-bar>button:hover {
+    cursor: pointer;
+    
+}
+
+.signed>a {
+    padding: 0 24px;
+    color: var(--nav-bar-text-color);
+}
+
+.signed>button {
+    background-color: var(--brand-green);
+    padding: 10px 24px;
+    border-radius: 50px;
+    color: #fff;
+    font-size: var(--nav-font-size-x);
+}
+
+.signed>button:hover {
+    background-color: var(--up-green);
+    cursor: pointer;
+}
+
+hr {
+    opacity: .5;
+}
+
+.nav-list {
+    display: flex;
+    padding: 12px 24px 12px 16px;
+    font-size: var(--nav-font-size-base);
+}
+
+.nav-list>li {
+    padding: 10px;
+}
+
+.nav-list>li:hover {
+    color: var(--up-green);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* HERO-SECTION */
+
+.hero-section {
+    display: flex;
+    width: 100%;
+    position: relative;
+    top: 130px;
+    /* align-items: center; */
+    justify-content: center;
+
+}
+
+.hero-section-text {
+    width: 55%;
+    padding-left: 70px;
+}
+
+.hero-section-text>h1 {
+    font-size: var(--h1-size);
+    color: var(--up-green);
+    letter-spacing: -2px;
+    font-family: 'Merriweather', serif;
+    font-weight: var(--h1-font-weight);
+    margin: 30px 0 10px;
+}
+
+.para {
+    color: #5e6d55;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: .24px;
+    margin-bottom: 30px;
+    font-weight: var(--nav-font-weight);
+    font-family: var(--font-family-base), "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+
+
+}
+
+.hero-section-text>button {
+    font-family: var(--font-family-base), "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: var(--nav-font-size-x);
+    padding: 12px 24px;
+    color: #fff;
+    background-color: var(--brand-green);
+    border-radius: 50px;
+}
+
+.hero-section-text>button:hover {
+    background-color: var(--up-green);
+}
+
+.hero-section-img {
+    width: 45%;
+}
+
+.hero-section-img>img {
+    width: 440px;
+
+}
+
+.Company-logo {
+    margin: 96px 70px;
+}
+
+.Company-logo>p {
+    color: #9aaa97;
+    font-family: var(--font-family-base), "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    margin-bottom: 12px;
+    font-size: var(--nav-font-size-x);
+    font-weight: var(--nav-font-weight);
+}
+
+.comp-logo {
+    display: flex;
+    width: 28%;
+    justify-content: space-between;
+}
+
+.comp-logo > img {
+    height: 40px;
+}
