@@ -159,8 +159,9 @@ button {
 
 .hr1 {
     opacity: .5;
-    color:gray;
-    height:2px;
+    background-color:gray;
+    height:.8px;
+    margin: 0;
 }
 
 .nav-list {
