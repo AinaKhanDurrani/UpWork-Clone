@@ -1,20 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Young+Serif&display=swap');
 
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-    text-decoration: none;
-    list-style: none;
-}
-
 :root {
 
 
-    ----font-family-base: "Neue Montreal";
-    --font-family-rebrand: Rza, Rza-fallback;
-    --font-family-monospace: menlo, monaco, consolas, "Courier New", monospace;
+    --font-family-base: "Neue Montreal";
     --nav-font-size-base: 14px;
     --nav-font-size-x: 16px;
     --nav-font-weight: 540;
@@ -25,6 +14,14 @@
     --brand-green: #108a00;
     --h1-size: 70px;
     --h1-font-weight: 500;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: var(--font-family-base), "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 nav {
@@ -212,14 +209,9 @@ main{
     letter-spacing: .24px;
     margin-bottom: 30px;
     font-weight: var(--nav-font-weight);
-    font-family: var(--font-family-base), "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-
-
-
 }
 
 .hero-section-text>button {
-    font-family: var(--font-family-base), "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-size: var(--nav-font-size-x);
     padding: 12px 24px;
     color: #fff;
@@ -246,7 +238,6 @@ main{
 
 .Company-logo>p {
     color: #9aaa97;
-    font-family: var(--font-family-base), "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     margin-bottom: 12px;
     font-size: var(--nav-font-size-x);
     font-weight: var(--nav-font-weight);
@@ -299,13 +290,11 @@ main{
 }
 
 .how-to-hire-list-heading{
-    font-family: var(--font-family-base), "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-size: 20px;
     font-weight: 500;
 }
 
 .how-to-hire-list-subtitle{
-    font-family: var(--font-family-base), "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-size: 14px;
     margin-top: 4px;
 
@@ -313,7 +302,6 @@ main{
 
 .how-to-hire-btn{
     cursor: pointer;
-    font-family: var(--font-family-base), "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 .how-to-hire-btn1{
     background-color: var(--brand-green);
@@ -351,7 +339,6 @@ main{
     margin: 1px 0 10px; 
 }
 .categories-pills-heading > p{
-    font-family: var(--font-family-base), "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     color:#5e6d55;
     margin-bottom: 80px;
 }
@@ -379,7 +366,6 @@ main{
 }
 
 .category-pill-title{
-    font-family: var(--font-family-base), "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-size: 23px;
     font-weight: 510;
 }
@@ -415,7 +401,6 @@ main{
 .banner-text{
     width: 60%;
     padding: 35px 45px 35px 35px;
-    font-family: var(--font-family-base), "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     color: #fff;
 }
 
@@ -481,7 +466,6 @@ main{
 }
 
 .banner2{
-    font-family: var(--font-family-base), "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     height: 616px;
     background-image: url("./img/find-talent-2x.jpg");
     margin-top: 50px;
