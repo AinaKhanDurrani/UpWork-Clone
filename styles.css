@@ -15,6 +15,10 @@
     --h1-size: 70px;
     --h1-font-weight: 500;
 }
+body{    
+    overflow-x: hidden;
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -130,7 +134,7 @@ button {
 .search-bar>button:hover {
     cursor: pointer;
     background-color: var(--search-border);
-    
+
 }
 
 
@@ -173,7 +177,7 @@ hr {
     cursor: pointer;
 }
 
-main{
+main {
     padding: 0 65px;
 }
 
@@ -249,64 +253,66 @@ main{
     justify-content: space-between;
 }
 
-.comp-logo > img {
+.comp-logo>img {
     height: 40px;
 }
 
-.how-to-hire{
+.how-to-hire {
     display: flex;
     margin-bottom: 64px;
 }
 
-.how-to-hire-video{
+.how-to-hire-video {
     width: 42%;
 }
 
-.how-to-hire-detail{
+.how-to-hire-detail {
     width: 58%;
 
 }
 
-.how-to-hire-heading{
+.how-to-hire-heading {
     font-size: 40px;
     font-family: 'Merriweather', serif;
     margin-bottom: 16px;
     letter-spacing: -2px;
 }
 
-.how-to-hire-list{
+.how-to-hire-list {
     display: flex;
-    margin-bottom: 24px;    
+    margin-bottom: 24px;
     font-size: 20px;
 
 }
 
-.how-to-hire-icon{
+.how-to-hire-icon {
     width: 7%;
 }
-.how-to-hire-list-head-subtitle{
+
+.how-to-hire-list-head-subtitle {
     width: 90%;
     justify-content: center;
 }
 
-.how-to-hire-list-heading{
+.how-to-hire-list-heading {
     font-size: 20px;
     font-weight: 500;
 }
 
-.how-to-hire-list-subtitle{
+.how-to-hire-list-subtitle {
     font-size: 14px;
     margin-top: 4px;
 
 }
 
-.how-to-hire-btn{
+.how-to-hire-btn {
     cursor: pointer;
 }
-.how-to-hire-btn1{
+
+.how-to-hire-btn1 {
     background-color: var(--brand-green);
     color: #fff;
-    margin-right: 16px;    
+    margin-right: 16px;
     padding: 12px 24px;
     border-radius: 50px;
     border: 2px solid var(--up-green);
@@ -314,120 +320,122 @@ main{
     font-weight: 500;
 }
 
-.how-to-hire-btn1:hover{
+.how-to-hire-btn1:hover {
     background-color: var(--up-green);
     cursor: pointer;
 }
 
-.how-to-hire-btn2{
+.how-to-hire-btn2 {
     background-color: #fff;
     color: var(--up-green);
     margin-right: 16px;
     padding: 12px 24px;
     border-radius: 50px;
     border: 2px solid var(--up-green);
-    font-size: var(--nav-font-size-x);    
+    font-size: var(--nav-font-size-x);
     font-weight: 500;
-    
+
 }
 
-.categories-pills-heading > h1{
+.categories-pills-heading>h1 {
     font-family: 'Merriweather', serif;
-    font-size:40px ;
+    font-size: 40px;
     letter-spacing: .2px;
     font-weight: 450;
-    margin: 1px 0 10px; 
+    margin: 1px 0 10px;
 }
-.categories-pills-heading > p{
-    color:#5e6d55;
+
+.categories-pills-heading>p {
+    color: #5e6d55;
     margin-bottom: 80px;
 }
-.categories-pills-heading > p > a{
-    color:var(--brand-green);
+
+.categories-pills-heading>p>a {
+    color: var(--brand-green);
     text-decoration: underline;
 }
 
-.categories-pills-tiles{
+.categories-pills-tiles {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
     column-gap: 32px;
     row-gap: 15px;
 }
 
-.category-tile{
+.category-tile {
     padding: 20px 20px 55px;
     background-color: #f5f8f5;
     border-radius: 8px;
 }
 
-.category-tile:hover{
+.category-tile:hover {
     background-color: #E4EBE4;
     cursor: pointer;
 }
 
-.category-pill-title{
+.category-pill-title {
     font-size: 23px;
     font-weight: 510;
 }
 
-.category-pill-detail{
+.category-pill-detail {
     padding-top: 10px;
 }
 
-.category-pill-detail > i{
+.category-pill-detail>i {
     color: var(--up-green);
 }
 
-.category-pill-detail > .rating{
+.category-pill-detail>.rating {
     margin-right: 40px;
     color: #5e6d55;
     font-weight: 520;
 }
 
-.category-pill-detail > span{
-    color:#5e6d55;
+.category-pill-detail>span {
+    color: #5e6d55;
     font-weight: 520;
 }
 
-.banner{
+.banner {
     margin-top: 64px;
     border-radius: 8px;
     height: 535px;
-    display: flex;    
+    display: flex;
     background-color: #13544E;
     justify-content: space-between;
 }
 
-.banner-text{
+.banner-text {
     width: 60%;
     padding: 35px 45px 35px 35px;
     color: #fff;
 }
 
-.enterprise-headline{
+.enterprise-headline {
     margin-bottom: 35px;
     font-size: 22px;
     font-weight: 520;
 }
 
-.enterprise-heading{
+.enterprise-heading {
     font-size: 56px;
     font-weight: 500;
     margin-bottom: 20px;
     line-height: 1;
 }
 
-.enterprise-heading > .heading{       
-       font-family: 'Merriweather', serif;
+.enterprise-heading>.heading {
+    font-family: 'Merriweather', serif;
 }
 
-.enterprise-heading > .green-heading{
+.enterprise-heading>.green-heading {
     font-family: 'Merriweather', serif;
     color: #91E6B3;
     line-height: 1.2;
 }
 
-.enterprise-subtitle{
+.enterprise-subtitle {
     font-size: 18px;
     font-weight: 450;
 }
@@ -439,16 +447,17 @@ main{
     display: flex;
 }
 
-.enterprise-description > img{
+.enterprise-description>img {
     width: 3.4%;
-    color:#91E6B3 ;
+    color: #91E6B3;
 }
 
-.enterprise-description > p{
+.enterprise-description>p {
     width: 90%;
     padding-left: 12px;
 }
-.enterprise-btn{
+
+.enterprise-btn {
     font-size: var(--nav-font-size-x);
     background-color: #fff;
     color: #13544E;
@@ -458,41 +467,41 @@ main{
     font-weight: 450;
 }
 
-.banner-img{
+.banner-img {
     width: 37%;
     background-image: url("./img/enterprise-2023\ 1.webp");
     background-size: cover;
     border-radius: 8px;
 }
 
-.banner2{
+.banner2 {
     height: 616px;
     background-image: url("./img/find-talent-2x.jpg");
     margin-top: 50px;
     border-radius: 8px;
 }
 
-.banner2-text{
+.banner2-text {
     width: 45%;
     padding: 30px;
     color: #fff;
 }
 
-.banner2-headline{
+.banner2-headline {
     font-size: 22px;
     font-weight: 520;
     margin-bottom: 100px;
 }
 
-.banner2-heading{
+.banner2-heading {
     font-family: 'Merriweather', serif;
     font-weight: 500;
     font-size: 72px;
-    margin-bottom:30px ;
+    margin-bottom: 30px;
     line-height: 1;
 }
 
-.banner2-subtitle{
+.banner2-subtitle {
     font-family: 18px;
     margin-bottom: 20px;
     line-height: 1.3;
@@ -500,22 +509,22 @@ main{
     letter-spacing: 1px;
 }
 
-.banner2-btns{
+.banner2-btns {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     width: 100%;
-    
+
 }
 
-.btn-section1{
+.btn-section1 {
     width: 30%;
     background-color: var(--brand-green);
     border-radius: 8px;
     padding: 16px;
 }
 
-.btn-heading{
+.btn-heading {
     font-size: 36px;
     margin-bottom: 20px;
     font-weight: 500;
@@ -524,37 +533,286 @@ main{
     line-height: 1;
 }
 
-.btn-para{
+.btn-para {
     color: #fff;
     font-weight: 400;
     font-size: 18px;
 }
 
-.btn-para > sup{
+.btn-para>sup {
     color: #fff;
     font-size: 12px;
     font-weight: 300;
 }
 
-.btn-para > i{
+.btn-para>i {
     color: #fff;
     font-weight: 400;
     font-size: 1.2rem;
     margin-left: 4px;
 }
+
 .btn-section1:hover {
     cursor: pointer;
     background-color: #fff;
     color: var(--brand-green);
 }
-.btn-section1:hover .btn-heading{
+
+.btn-section1:hover .btn-heading {
     cursor: pointer;
     background-color: #fff;
     color: var(--brand-green);
 }
 
-.btn-section1:hover .btn-para{
+.btn-section1:hover .btn-para {
     cursor: pointer;
     background-color: #fff;
     color: var(--brand-green);
+}
+
+
+.banner3{
+    height: 556px;
+}
+.banner3-text-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 90px;
+}
+
+.banner3-text-section1 {
+    width: 62%;
+    background-color: #f5f8f5;
+    border-radius: 8px;
+}
+
+.banner3-heading {
+    margin: 30px 0 30px 30px;
+    font-size: 72px;
+    font-family: 'Merriweather', serif;
+    font-weight: 500;
+    letter-spacing: -2px;
+}
+
+.banner3-description {
+    display: flex;
+    width: 67%;
+}
+
+.banner3-description>i {
+    margin: 5px 12px 0 0;
+    font-size: 2.8rem;
+
+}
+
+.description-heading {
+    margin-bottom: 10px;
+    font-size: 35px;
+}
+
+.banner3-subtitle>p {
+    margin: 0 30px 30px 0;
+    color: #5E6D55;
+    font-size: 16px;
+}
+
+.banner3-text-section2 {
+    width: 35%;
+    background-color: var(--up-green);
+    border-radius: 8px;
+    padding: 230px 20px 40px;
+    color: #fff;
+}
+
+.banner3-section2-subtitle {
+    font-size: 33px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+
+
+.banner3-description {
+    display: flex;
+    margin-left: 10px;
+}
+
+.banner3-deccription-subtitle {
+    font-size: 16px;
+    margin: 0 6px 10px 0;
+}
+
+.banner3-deccription-subtitle>p {
+    margin-bottom: 8px;
+    font-size: 33px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.banner3-img {
+    position: relative;
+    top: -700px;
+    left: 470px;
+}
+
+.banner3-img>img {
+    width: 30%;
+    z-index: 2;
+}
+
+.banner4{
+    position: relative;
+    top: 150px;
+    display: flex;    
+    width: 100%;
+}
+
+.banner4-img{
+    width: 45%;
+    background-image: url("./img/find-great-work@2x.webp") ;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    background-size: cover;
+    
+}
+
+.banner4-text-section{
+    width: 55%;
+    background-color: #1F57C3;
+    color: #fff;
+    padding: 30px;
+    border-top-right-radius: 8px; 
+    border-bottom-right-radius: 8px;   
+}
+
+.banner4-subtitle{
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.banner4-heading{
+    margin-bottom: 35px;
+    font-size: 72px;
+    font-family: 'Merriweather', serif;
+    line-height: 1.2;
+}
+
+.banner4-description{
+    margin-bottom: 60px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+hr{
+    height: 1.5px;
+    background-color: #fff;
+    border: none;
+    margin: 18px 0;
+}
+
+.for-talent-description{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.for-talent-description > span{
+    margin: 0 15px 20px 0;
+    font-size: 18px;
+    font-weight: -100;
+    width: 28%;
+    letter-spacing: -1px;
+    line-height: 1.5;
+}
+
+.banner4-btn{
+    background-color: #fff;
+    color: #1F57C3;
+    border-radius: 50px;
+    padding: 12px 24px;
+    font-weight: 545;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.ukraine-help-banner{
+    margin-top: 100px;
+    padding: 32px;
+    display: flex;
+    width: 100%;
+    position: relative;
+    top: 150px;
+    background-color: #F7FAF7;
+    border-radius: 8px;
+
+}
+
+.ukraine-help-text{
+    width: 82%;
+}
+.ukraine-help-heading{
+    font-family: 'Merriweather', serif;
+    font-size: 38px;
+    margin-bottom: 8px;
+    
+}
+
+.ukraine-help-description{
+    margin-bottom: 9px;
+    font-size: 18px;
+    color: #5E6D55;
+    font-weight: 500;
+}
+
+.ukarine-help-btn{
+    font-size: 16px;
+    color: var(--brand-green);
+    border: 2px solid var(--brand-green);
+    border-radius: 50px;
+    padding: 8px 24px;
+    margin-top: 20px;
+}
+.ukarine-help-btn:hover{
+    cursor: pointer;
+}
+.ukraine-help-img{
+    width: 18%;
+}
+
+.ukraine-help-img > img{
+    width: 100%;
+}
+
+.top-skills{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 200px;
+    margin-bottom: 200px;
+}
+
+.heading-top{
+    color: var(--up-green);
+}
+
+.topskill-heading{
+color:  #bcc5b8;
+font-size: 40px;
+margin-bottom: 15px;
+font-weight: 520;
+}
+.skill-heading:hover{
+    color:  var(--up-green);
+    cursor: pointer;
+   
+}
+
+.skills-list > li{
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 15px;
+    color: #5e6d55;
+}
+.skills-list > li:hover{
+    color: var(--up-green);
 }
