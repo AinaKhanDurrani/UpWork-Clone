@@ -846,7 +846,13 @@ footer{
     padding: 96px 0;
 }
 
-.footer-list > li >a{
-    margin: 16px 0;
+.footer-list > li{
+    padding-top: 16px ;
     font-size: 14px;
+}
+
+.footer-list>li>a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    text-underline-offset: 2px;
 }
