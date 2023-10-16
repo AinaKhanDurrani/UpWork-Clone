@@ -306,7 +306,7 @@ main {
 
 }
 
-.how-to-hire-btn {
+.how-to-hire-btn:hover {
     cursor: pointer;
 }
 
@@ -336,6 +336,10 @@ main {
     font-size: var(--nav-font-size-x);
     font-weight: 500;
 
+}
+
+.how-to-hire-btn2:hover{
+    cursor: pointer;
 }
 
 .categories-pills-heading>h1 {
