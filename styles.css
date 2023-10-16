@@ -127,7 +127,7 @@ button {
 
 .search-bar>button {
     border-radius: 50px;
-    padding: 1px 12px 0;
+    padding: 10px 24px ;
     background-color: transparent;
 }
 
@@ -136,8 +136,6 @@ button {
     background-color: var(--search-border);
 
 }
-
-
 
 .signed>a {
     padding: 0 24px;
@@ -602,7 +600,12 @@ main {
     width: 67%;
 }
 
-.banner3-description>i {
+.banner3-text-section1>.banner3-description>i{
+     font-size: 1.5rem;
+     margin: 8px 10px 0 0;
+}
+
+ .banner3-description >i {
     margin: 5px 12px 0 0;
     font-size: 2.8rem;
 
@@ -635,9 +638,10 @@ main {
 }
 
 
-.banner3-description {
+.banner3-section2-description {
     display: flex;
     margin-left: 10px;
+    width: 80%;
 }
 
 .banner3-deccription-subtitle {
@@ -650,6 +654,7 @@ main {
     font-size: 33px;
     font-weight: 500;
     color: #fff;
+    width: 100%;
 }
 
 .banner3-img {
@@ -806,8 +811,10 @@ font-weight: 520;
 }
 .skill-heading:hover{
     color:  var(--up-green);
-    cursor: pointer;
-   
+    cursor: pointer;   
+}
+.skills-list{
+    margin-right: 70px;
 }
 
 .skills-list > li{
@@ -815,7 +822,31 @@ font-weight: 520;
     line-height: 28px;
     margin-bottom: 15px;
     color: #5e6d55;
+   
 }
 .skills-list > li:hover{
     color: var(--up-green);
+    cursor: pointer;
+}
+
+
+/* Footer Section */
+
+footer{
+    background-color: #001e00;
+    margin: 0 24px 24px;
+    border-radius: 8px;
+    color: #fff;
+
+}
+
+.footer-lists{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 96px 0;
+}
+
+.footer-list > li >a{
+    margin: 16px 0;
+    font-size: 14px;
 }
