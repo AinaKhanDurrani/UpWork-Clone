@@ -62,7 +62,7 @@ nav {
 
 .nav-items-list {
     display: flex;
-    width: 50%;
+    width: 45%;
     justify-content: left;
     align-items: center;
 }
@@ -78,7 +78,7 @@ nav {
 
 .signed {
     display: flex;
-    width: 50%;
+    width: 55%;
     justify-content: space-evenly;
     align-items: center;
 }
@@ -659,7 +659,7 @@ main {
 
 .banner3-img {
     position: relative;
-    top: -700px;
+    top: -650px;
     left: 470px;
 }
 
@@ -670,8 +670,9 @@ main {
 
 .banner4{
     position: relative;
-    top: 150px;
-    display: flex;    
+    top: 70px;
+    display: flex;
+    margin: 70px 0;    
     width: 100%;
 }
 
@@ -744,7 +745,7 @@ hr{
 }
 
 .ukraine-help-banner{
-    margin-top: 100px;
+    margin-top: 50px;
     padding: 32px;
     display: flex;
     width: 100%;
@@ -752,6 +753,8 @@ hr{
     top: 150px;
     background-color: #F7FAF7;
     border-radius: 8px;
+    
+    margin: 50px 0;
 
 }
 
@@ -795,8 +798,8 @@ hr{
     display: flex;
     justify-content: space-between;
     position: relative;
-    top: 200px;
-    margin-bottom: 200px;
+    top: 50px;
+    margin: 150px 0;
 }
 
 .heading-top{
@@ -837,13 +840,14 @@ footer{
     margin: 0 24px 24px;
     border-radius: 8px;
     color: #fff;
+    padding: 96px 64px;
 
 }
 
 .footer-lists{
     display: flex;
-    justify-content: space-evenly;
-    padding: 96px 0;
+    justify-content: space-between;
+    padding: 0 0 40px 0;
 }
 
 .footer-list > li{
@@ -856,3 +860,107 @@ footer{
     cursor: pointer;
     text-underline-offset: 2px;
 }
+.footer-social-media-handels{
+    display: flex;
+    width: 100%;
+}
+
+.social-media-handel-section1{
+    display: flex;
+    width: 70%;
+}
+
+.social-media-handel-section1 >p{
+    font-weight: 550;
+    font-weight: 14px;
+    margin-top: 12px;
+    margin-right: 10px;
+}
+
+.social-media-handel-section1 a {
+   color: #fff;
+   padding: 8px;
+   border-radius: 50%;
+   border: 1px solid #fff;
+   align-items: center;
+   margin-right: 8px;
+}
+
+.social-media-handel-section1 a:hover {
+    background-color: #9AAA97;
+ }
+
+.social-media-handel-section1 a i {
+    font-size: 1.5rem;
+ }
+
+.social-media-handel-section2{
+    display: flex;
+    width: 30%;
+    justify-content: end;
+}
+
+.social-media-handel-section2 >p{
+    font-weight: 550;
+    font-weight: 14px;
+    margin-top: 12px;
+    margin-right: 10px;
+}
+
+.social-media-handel-section2 a {
+   color: #fff;
+   padding: 8px;
+   border-radius: 50%;
+   border: 1px solid #fff;
+   align-items: center;
+   margin-right: 8px;
+}
+
+.social-media-handel-section2 a:hover {
+    background-color: #9AAA97;
+ }
+
+ .social-media-handel-section2 a i {
+    font-size: 1.5rem;
+ }
+
+ .footer-hr{
+    border: none;
+    height: .5px;
+    background-color: #fff;
+    margin: 24px 0;
+}
+
+ .copyright-section{
+    display: flex;
+ }
+
+ .copyright-section > p{
+    margin-right: 50px;
+    font-weight: 500;
+    align-items: center;
+ }
+
+ .copyright-section > p >sup{
+   font-size: 8px;
+   border: .5px solid white;
+   border-radius: 50%;
+   padding: 1px;
+ }
+
+ .copyright-list{
+    display: flex;
+    align-items: center;
+   
+ }
+
+ .copyright-list > li{
+    margin-right: 14px;
+    font-weight: 300;
+    font-size: 14px;
+ }
+
+ .copyright-list > li:hover{
+   text-decoration: underline;
+   text-underline-offset: 2px;
+ }
